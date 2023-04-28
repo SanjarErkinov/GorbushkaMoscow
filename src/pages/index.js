@@ -1,4 +1,7 @@
-import First from '@/first-block/First'
+import Fifth from '@/components/fifth-block/Fifth'
+import First from '@/components/first-block/First'
+import Footer from '@/components/footer/Footer'
+import Second from '@/components/second-block/Second'
 import Head from 'next/head'
 
 
@@ -13,6 +16,9 @@ export default function Home() {
       </Head>
 
       <First/>
+      <Second/>
+      <Fifth/>
+      <Footer/>
     </>
   )
 }

@@ -1,8 +1,8 @@
 .first {
-  width: 100%;
-  height: 100vh;
   position: relative;
-}
+  width: 100%;
+  height: 800px;
+  background: #F5F5F5;}
 
 .first__container {
   max-width: 1200px;
@@ -20,12 +20,17 @@
   column-gap: 30px;
 }
 
+.swiperFirst {
+  width: 65%;
+  height: 100%;
+}
+
 .banner__slide {
   position: relative;
-  background-image: url(../../public/Image/FirstBlock/Banner.png);
+  background-image: url(../../../public/Image/FirstBlock/Banner.png);
   background-position: center center;
   border-radius: 7px;
-  width: 770px;
+  /* width: 770px; */
   height: 378px;
 }
 
@@ -102,13 +107,13 @@
 }
 
 .product__favorites {
-  background: url(../../public/Image/FirstBlock/like.png);
+  background: url(../../../public/Image/FirstBlock/like.png);
   width: 19px;
   height: 18px;
 }
 
 .product__favorites:active {
-  background: url(../../public/Image/FirstBlock/like-active.png);
+  background: url(../../../public/Image/FirstBlock/like-active.png);
   width: 19px;
   height: 18px;
 }
@@ -200,8 +205,38 @@
   position: relative;
   width: 370px;
   height: 160px;
-  background: #d2e6d2;
+  background: #E6EBE6;
   border-radius: 6px;
+}
+
+.catalog__card:nth-child(2) {
+  background: #d2e6d2;
+} 
+
+.catalog__card:nth-child(3) {
+  background: #D2D2E5;
+} 
+
+.catalog__card:nth-child(4) {
+  background: #DDDCD2;
+} 
+
+.catalog__card:nth-child(5) {
+  background: rgba(238, 224, 224, 0.95);
+} 
+
+.catalog__card:nth-child(6) {
+  background: #D2DDE5;
+} 
+
+.card__cirsle {
+  position:absolute;
+  background:#ffffff;
+  border-radius:50%;
+  width:9px;
+  height:9px;
+  left:20px;
+  top:20px;
 }
 
 .catalog__card p {
@@ -225,3 +260,5 @@
     justify-content: center;
   }
 }
+
+
