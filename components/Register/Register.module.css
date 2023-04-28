@@ -1,0 +1,71 @@
+.container_register{
+    width: 1440px;
+    width: 100%;
+    height: 600px;
+    height: 100%;
+    margin: 0 auto  !important;
+    padding-top: 100px;
+}
+.register_back{
+    display: flex;
+    width:85%;
+    background-color:#5F6308;
+    border-radius: 20px;
+    height: 450px;
+    margin: 0 auto;
+    z-index: -100;
+}
+.register_all{
+    font-family: 'Manrope';
+    width: 90%;
+    padding-left:50px ;
+    margin: 0 auto;
+}
+.register_all>h1{
+    padding-top: 50px;
+    font-size: 30px;
+    color: white;
+}
+.register_all>img{
+    padding-top: 20px;
+}
+.register_all>p{
+    font-size: 15px;
+    color: white;
+    padding-top: 20px;
+}
+.register_choice{
+    display: flex;
+    gap: 20px;
+    width: 80%;
+    padding-top :125px; 
+    flex-wrap: wrap;
+
+}
+.register_choice>input{
+    display: flex;
+    z-index: 100;
+    width: 200px;
+    height: 40px;
+    border-radius: 8px ;
+}
+.register_choice_title{
+    color: white;
+    font-size: 20px;
+    margin-top: -130px;
+}
+.register_choice_title>button{
+    border: none;
+    color: white;
+    border-radius: 5px;
+    background: #3E4D31;
+    width: 420px;
+    height: 35px;
+    margin-top: 20px;
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+}
+.register_choice_title>button:hover{
+    filter: brightness(200%);
+}
+
