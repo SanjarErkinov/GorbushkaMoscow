@@ -1,0 +1,30 @@
+.gallery{
+    margin-top: 50px;
+}
+.gallery_item{
+    display:flex;
+    margin: 0 auto;
+    gap: 15px;
+}
+.gallery_item_one>img{
+    width: 595px;
+    height: 400px;
+}
+.gallery_item_two>img{
+    width: 605px;
+    height: 388px;
+}
+.gallery_item_thre>img{
+    width: 1215px;
+}
+
+@media(max-width:1024px){
+    .gallery_item_one>img{
+        width: 505px;
+        height: 380px;
+    }
+    .gallery_item_two>img{
+        width: 480px;
+        height: 368px;
+    }
+}
