@@ -13,29 +13,32 @@ const Footer = () => {
                         </div>
                         <div className={styles.footer__link_1}>
                             <ul>
-                                <li><a href="">О компании</a></li>
-                                <li><a href="">Доставка и оплата</a></li>
-                                <li><a href="">Обмен и возврат</a></li>
+                                <li><a href="#">О компании</a></li>
+                                <li><a href="#">Доставка и оплата</a></li>
+                                <li><a href="#">Обмен и возврат</a></li>
                             </ul>
                         </div>
                         <div className={styles.footer__link_2}>
                             <ul>
-                                <li><a href="">Гарантия и сервис</a></li>
-                                <li><a href="">Контакты</a></li>
-                                <li><a href="">Каталог</a></li>
+                                <li><a href="#">Гарантия и сервис</a></li>
+                                <li><a href="#">Контакты</a></li>
+                                <li><a href="#">Каталог</a></li>
                             </ul>
                         </div>
                         <div className={styles.footer__link_3}>  
                             <ul>
-                                <li><a href="">ТЦ Горбушка, г. <br /> Москва, ул. Барклая, 8</a></li>
-                                <li><a href="">10:00 — 21:00 без выходных</a></li>
+                                <li><a href="#">ТЦ Горбушка, г. <br /> Москва, ул. Барклая, 8</a></li>
+                                <li><a href="#">10:00 — 21:00 без выходных</a></li>
                             </ul>               
                         </div>
                         <div className={styles.footer__link_4}>
                             <ul>
-                                <h2><a href="">+7 (916) 842-34-30</a></h2>
-                                <li><a href="">gorbushka-moscow@yandex.ru</a></li>
-                                <li><a href=""></a></li>
+                                <h2><a href="#">+7 (916) 842-34-30</a></h2>
+                                <li><a href="#">gorbushka-moscow@yandex.ru</a></li>
+                                <div className={styles.footer__social_logo}>
+                                    <li><a href="#"><Image src='/Image/FooterImg/Telegram.svg' alt='logotip-FooterWhatsApp' width={28} height={28} /></a></li>
+                                    <li><a href="#"><Image src='/Image/FooterImg/WhatsApp.svg' alt='logotip-FooterTelegram' width={28} height={28} /></a></li>
+                                </div>
                             </ul>
                         </div>
                     </div>
@@ -52,7 +55,7 @@ const Footer = () => {
                             <p>Политика конфиденциальности</p>
                         </div>
                         <div className={styles.footer__bottom_info_2}>
-                            <Image src='/Image/FooterImg/FooterBottomLogo.png' alt='logotip-GorbushkaMoscow' width={31} height={34} />
+                            <Image src='/Image/FooterImg/FooterBottomLogo.png' alt='logotip-Footerbottom' width={31} height={34} />
                             <p>Разработка сайта <br/> Студия «СТРОИМ САЙТ»</p>
                         </div>
                     </div>

@@ -1,8 +1,8 @@
-import styles from './FifthCard.module.css'
+import styles from './SixthCard.module.css'
 import Image from 'next/image';
 
 
-const FifthCard = () => {
+const SixthCard = () => {
     return (
         <div className={styles.fifth__item}>
             <div className={styles.fifth__card_container}>
@@ -33,4 +33,4 @@ const FifthCard = () => {
     );
 };
 
-export default FifthCard;
+export default SixthCard;
