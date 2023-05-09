@@ -8,7 +8,7 @@ const Header = () => {
                 <div className={s.aboveHeader__container}>
                     <div className={s.aboveHeader_body}>
                         <div className={s.aboveHeader__location}>
-                            <img className={s.location_img} src="./location.svg" alt="location" />
+                            <Image src='/Image/HeaderImg/location.svg' alt='location-logo' width={14} height={14} />
                             <p>ТЦ Горбушка, г. Москва, ул. Барклая, 8</p>
                         </div>
                         <nav className={s.aboveHeader_title}>
