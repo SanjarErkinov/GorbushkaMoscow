@@ -7,6 +7,7 @@
   background-position: center center;
   position: relative;
   margin-top: 40px;
+  cursor: pointer;
 }
 
 .third__container {

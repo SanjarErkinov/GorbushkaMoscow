@@ -1,13 +1,18 @@
 .fifth__item {
     position: relative;
     background: #FFFFFF;
-    /* border-radius: 7px; */
-    border: #063500 solid 1px;
+    border-radius: 7px;
+    border: #06350044 solid 1px;
     width: 280px;
     height: 270px;
     cursor: pointer;
+    transition: .3s all ease;
   }
   
+.fifth__item:hover {
+  transform: scale(1.05);
+}
+
   .fifth__card_container {
     max-width: 245px;
     margin: 0 auto;

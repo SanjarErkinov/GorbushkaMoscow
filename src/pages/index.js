@@ -6,8 +6,11 @@ import Second from '@/components/second-block/Second'
 import Third from '@/components/third-block/Third'
 import Fourth from '@/components/fourth-block/Fourth'
 import Sixth from '@/components/sixth-block/Sixth'
-import Head from 'next/head'
 import Gallery from '@/components/gallery-block/Gallery'
+import Head from 'next/head'
+import PurchaseFirst from '@/components/PurchaseFirstPage/PurchaseFirst'
+import Catalog from '@/components/CatalogPage/Catalog'
+import PurchaseSecond from '@/components/PurchaseSecondPage/PurchaseSecond'
 
 
 export default function Home() {
@@ -21,12 +24,15 @@ export default function Home() {
       </Head>
 
       <Header/>
-      <First/>
+      {/* <Catalog/> */}
+      <PurchaseFirst />
+      <PurchaseSecond/>
+      {/* <First/>
       <Second/>
       <Third/>
       <Fourth/>
       <Fifth />
-      <Gallery/>
+      <Gallery/> */}
       <Sixth/>
       <Footer/>
     </>

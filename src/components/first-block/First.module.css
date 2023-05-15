@@ -56,8 +56,8 @@
 }
 
 .banner__slide_content button {
-  background: #ffffff;
-  color: #063500;
+  background: #3e4d31;
+  color: rgba(255, 255, 255, 0.91);
   padding: 11px 26px;
   border-radius: 7px;
   margin-top: 19px;
@@ -67,8 +67,8 @@
 }
 
 .banner__slide_content button:hover {
-  background: #3e4d31;
-  color: rgba(255, 255, 255, 0.91);
+  background: #ffffff;
+  color: #063500;
 }
 
 .banner__product {
@@ -172,14 +172,12 @@
   color: #3e4d31;
 }
 
-/* catalog ======================= */
-
 @media (max-width: 850px) {
   .banner__block {
     flex-wrap: wrap;
     justify-content: center;
   }
-
+  
   .banner__product {
     margin-top: 30px;
   }
@@ -190,6 +188,8 @@
     right: 30px;
   }
 }
+
+/* Сatalog ======================= */
 
 .catalog__block {
   margin-top: 30px;
@@ -207,6 +207,12 @@
   height: 160px;
   background: #E6EBE6;
   border-radius: 6px;
+  transition: .3s all ease;
+  cursor: pointer;
+}
+
+.catalog__card:hover {
+  transform: scale(1.05);
 }
 
 .catalog__card:nth-child(2) {
@@ -237,6 +243,11 @@
   height:9px;
   left:20px;
   top:20px;
+  transition: .2s all ease;
+}
+
+.catalog__card:hover .card__cirsle {
+  background: #3E4D31;
 }
 
 .catalog__card p {

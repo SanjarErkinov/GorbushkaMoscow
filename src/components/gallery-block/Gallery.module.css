@@ -23,12 +23,19 @@
 
 .dyson__picture {
     position: relative;
-    background: url('../../../public/Image/GalleryImg/Dyson.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-    width: 50%;
-    height: 368px;
+    display: inline-block;
+    overflow: hidden;
+}
+
+.dyson__picture img {
+    transition: 1s; 
+    display: block;
+    cursor: pointer;
+}
+
+.dyson__picture img:hover {
+    transform: scale(1.1);
+    filter: blur(10px);
 }
 
 .dyson__picture p {
@@ -39,16 +46,24 @@
     font-size: 23px;
     line-height: 31px;
     color: #000000;
+    cursor: pointer;
 }
 
 .iphone__picture {
     position: relative;
-    background: url('../../../public/Image/GalleryImg/14pro.png');
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-    width: 50%;
-    height: 368px;
+    display: inline-block;
+    overflow: hidden;
+}
+
+.iphone__picture img {
+    transition: 1s; 
+    display: block;
+    cursor: pointer;
+}
+
+.iphone__picture img:hover {
+    transform: scale(1.1);
+    filter: blur(10px);
 }
 
 .iphone__picture p {
@@ -59,16 +74,26 @@
     font-size: 23px;
     line-height: 31px;
     color: #000000;
+    cursor: pointer;
 }
+
 
 .gallery__down {
     position: relative;
-    background: url('../../../public/Image/GalleryImg/Galaxy-s23.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
+    display: inline-block;
+    overflow: hidden;
+}
+
+.gallery__down img {
     width: 100%;
-    height: 219px;
+    transition: 1s; 
+    display: block;
+    cursor: pointer;
+}
+
+.gallery__down img:hover {
+    transform: scale(1.1);
+    filter: blur(10px);
 }
 
 .gallery__down p {
@@ -79,4 +104,5 @@
     font-size: 23px;
     line-height: 31px;
     color: #FFFFFF;
+    cursor: pointer;
 }

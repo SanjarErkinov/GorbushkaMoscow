@@ -18,13 +18,10 @@ const First = () => {
                             slidesPerView={1}
                             spaceBetween={30}
                             loop={true}
-                            pagination={{
-                                clickable: true,
-                            }}
                             navigation={true}
                             speed={600}
                             autoplay={{ delay: 2000 }}
-                            modules={[Pagination, Navigation, Autoplay]}
+                            modules={[ Navigation, Autoplay]}
                             className={styles.swiperFirst}
                         >
                             <SwiperSlide className={styles.swiperSlide}><div className={styles.banner__slide}>
@@ -50,7 +47,7 @@ const First = () => {
                                     <p>Iphone 14 pro и Iphone 14 <br /> pro Max уже в продаже. </p>
                                     <button>Купить</button>
                                 </div>
-                            </div></SwiperSlide>м ь
+                            </div></SwiperSlide>
                         </Swiper>
                         <div className={styles.banner__product}>
                             <div className={styles.banner__product_container}>
@@ -72,7 +69,7 @@ const First = () => {
                                         navigation={true}
                                         autoplay={{ delay: 2500 }}
                                         speed={700}
-                                        modules={[Pagination, Navigation, Autoplay]}
+                                        modules={[ Navigation, Autoplay]}
                                         className="cardSwiper"
                                     >
                                         <SwiperSlide>
@@ -99,7 +96,7 @@ const First = () => {
                                             </div>
                                         </div>
                                     </div>
-                                </div>
+                                </div> 
                             </div>
                         </div>
                     </div>

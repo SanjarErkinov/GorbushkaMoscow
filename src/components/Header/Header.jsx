@@ -38,7 +38,7 @@ const Header = () => {
                 <div className={s.header__container}>
                     <div className={s.header__body}>
                         <div className={s.header_logo}>
-                            <Image src='/Image/FooterImg/FooterLogo.png' alt='logotip-GorbushkaMoscow' width={118} height={58} />
+                            <Image src='/Image/HeaderImg/HeaderLogo1.svg' alt='logotip-GorbushkaMoscow' width={118} height={58} />
                         </div>
                         <div className={s.header__content}>
                             <div className={s.header_all}>

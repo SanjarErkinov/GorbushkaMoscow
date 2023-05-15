@@ -108,6 +108,13 @@
   border: 1px solid #3E4D31;
   padding: 14px 240px;
   cursor: pointer;
+  transition: .3s all ease;
+}
+
+.form__info button:hover {
+  background: #ffffff;
+  border: 1px solid #3e4d31;
+  color: #3e4d31;
 }
 
 .form__checkbox {

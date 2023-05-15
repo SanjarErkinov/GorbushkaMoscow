@@ -1,11 +1,16 @@
 .second__item {
   position: relative;
   background: #FFFFFF;
-  /* border-radius: 7px; */
-  border: #063500 solid 1px;
+  border-radius: 7px;
+  border: #06350044 solid 1px;
   width: 280px;
   height: 330px;
   cursor: pointer;
+  transition: .3s all ease;
+}
+
+.second__item:hover {
+    transform: scale(1.05);
 }
 
 .second__card_container {
