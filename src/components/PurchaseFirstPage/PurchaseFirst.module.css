@@ -40,7 +40,6 @@
 
 .purchaseFirst__content {
   display: flex;
-  /* justify-content: center; */
   column-gap: 131px;
 }
 
@@ -162,7 +161,7 @@
   column-gap: 116px;
 }
 
-.info_second_title h1 {
+.info_second_title a {
   font-weight: 500;
   font-size: 15px;
   line-height: 94.49%;
@@ -200,6 +199,7 @@
   border: 1px solid #000000;
   padding: 9px 9px 7px 9px;
   border-radius: 50%;
+  cursor: pointer;
 }
 
 .info_second_content_btn button:nth-child(2) {
@@ -207,6 +207,7 @@
   border: 1px solid green;
   padding: 9px 9px 7px 9px;
   border-radius: 50%;
+  cursor: pointer;
 }
 
 .info_second_content_btn button:nth-child(3) {
@@ -214,6 +215,7 @@
   border: 1px solid #1C00FF;;
   padding: 9px 9px 7px 9px;
   border-radius: 50%;
+  cursor: pointer;
 }
 
 .info_second_content_btn button img{

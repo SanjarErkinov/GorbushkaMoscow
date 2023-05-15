@@ -98,7 +98,7 @@ const PurchaseFirst = () => {
                       <h1>Оперативная память:</h1>
                       <button className={s.info_second_content_btn_2}>8 GB</button>
                     </div>
-                    <div className={s.info_second_title}><h1>Все характеристики &#8594;</h1></div>
+                    <div className={s.info_second_title}><a href="">Все характеристики &#8594;</a></div>
                   </div>
                   <div className={s.characteristic_info_second_2}>
                     <div className={s.info_second_2}>
