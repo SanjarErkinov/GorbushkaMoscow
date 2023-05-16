@@ -25,14 +25,14 @@ export default function Home() {
 
       <Header/>
       {/* <Catalog/> */}
-      <PurchaseFirst />
-      <PurchaseSecond/>
-      {/* <First/>
+      {/* <PurchaseFirst />
+      <PurchaseSecond/> */}
+      <First/>
       <Second/>
       <Third/>
       <Fourth/>
       <Fifth />
-      <Gallery/> */}
+      <Gallery/>
       <Sixth/>
       <Footer/>
     </>

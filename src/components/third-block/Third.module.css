@@ -29,3 +29,7 @@
   line-height: 31px;
   color: #ffffff;
 }
+
+.third:hover .third__title p {
+  text-decoration: underline;
+}

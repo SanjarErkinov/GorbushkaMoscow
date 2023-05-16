@@ -26,6 +26,8 @@
 
 .second__link {
   margin: 40px 0px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .second__link ul {

@@ -34,11 +34,10 @@
     line-height: 94.49%;    
     text-align: center;
     color: #3E4D31;
-    transition: .3s all ease;
 }
 
 .purchaseSecond__link a:hover {
-    opacity: 0.60;
+    text-decoration: underline;
 }
 
 .purchaseSecond__info {

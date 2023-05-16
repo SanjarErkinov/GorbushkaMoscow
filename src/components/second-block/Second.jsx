@@ -16,6 +16,9 @@ const Second = () => {
                             <li><a href="#">Новинки</a></li>
                             <li><a href="#">Акции</a></li>
                         </ul>
+                        <ul>
+                            <li><a href="#">Смотреть все &#8594;</a></li>
+                        </ul>
                     </div>
                     <div className={styles.second__card}>
                         <SecondCard />

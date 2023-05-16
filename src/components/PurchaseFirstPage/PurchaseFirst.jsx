@@ -118,10 +118,10 @@ const PurchaseFirst = () => {
               <div className={s.purchaseFirst__bottom_info}>
                 <button>Купить</button>
                 <div>
-                  <p>Доставка по Москве в пределах МКАД от 700₽</p>
-                  <p>Доставка по всей России через транспортную компанию СДЕК, по 100% оплате</p>
-                  <p>Отправка происходит в течении часа после оплаты товара.</p>
-                </div>
+                  <p><Image src='/Image/Purchaseimg/logo1.svg' alt="Smartfon" width={14} height={14} />Доставка по Москве в пределах МКАД от 700₽</p>
+                  <p><Image src='/Image/Purchaseimg/logo2.svg' alt="Smartfon" width={14} height={14} />Доставка по всей России через транспортную компанию СДЕК, по 100% оплате</p>
+                  <p><Image src='/Image/Purchaseimg/logo3.svg' alt="Smartfon" width={14} height={14} />Отправка происходит в течении часа после оплаты товара.</p>
+                </div>    
               </div>
             </div>
           </div>

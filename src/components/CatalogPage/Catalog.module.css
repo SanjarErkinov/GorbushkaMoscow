@@ -17,10 +17,6 @@
   row-gap: 20px;
 }
 
-.catalog__content {
-
-}
-
 .catalog__link a {
   font-weight: 500;
   font-size: 12px;
@@ -28,11 +24,20 @@
   color: #aaaaaa;
 }
 
+.catalog__link a:hover {
+  text-decoration: underline;
+}
+
 .catalog__link span {
   font-weight: 500;
   font-size: 12px;
   line-height: 94.49%;
   color: #262626;
+  cursor: pointer;
+}
+
+.catalog__link span:hover {
+  text-decoration: underline;
 }
 
 .catalog__title h1 {

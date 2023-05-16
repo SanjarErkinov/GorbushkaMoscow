@@ -63,7 +63,14 @@ const Header = () => {
                                 </div>
                             </div>
                             <div className={s.header_down}>
-                                <button className={s.catalog} >Каталог</button>
+                                <button className={s.catalog}>
+                                     <span>
+                                        <div></div>
+                                        <div></div>
+                                        <div></div>
+                                    </span>
+                                     Каталог
+                                </button>
                                 <button className={s.iphone}>iPhone 14 Pro Макс 256</button>
                                 <button className={s.appletv}>Apple TV 4K 2022</button>
                                 <button className={s.watch}> Apple Watch Series Ultra</button>

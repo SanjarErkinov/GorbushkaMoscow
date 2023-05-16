@@ -10,6 +10,7 @@
 }
 
 .second__item:hover {
+  border: solid 1px #262626;
     transform: scale(1.05);
 }
 

@@ -46,6 +46,8 @@ const Footer = () => {
             </div>
         </footer>
 
+        {/*  Footer-Bottom =========================== */}
+
         <footer className={styles.footer__bottom}>
             <div className={styles.footer__bottom_container}>
                 <div className={styles.footer__bottom_body}>
