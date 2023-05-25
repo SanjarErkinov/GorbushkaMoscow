@@ -38,19 +38,19 @@
   font-size: 37px;
   line-height: 119.49%;
   color: #FFFFFF;
+  cursor: pointer;;
 }
 
 .form__subtitle {
   display: grid;
   row-gap: 9px;
 }
-
-
 .form__subtitle p {
   font-weight: 400;
   font-size: 16px;
   line-height: 135%;
   color: rgba(255, 255, 255, 0.8);
+  cursor: pointer;
 }
 
 .form__info {
@@ -114,10 +114,13 @@
   display: flex;
   column-gap: 10px;
 }
-
+.form__checkbox input{
+  cursor: pointer;
+}
 .form__checkbox label {
   font-weight: 400;
   font-size: 13px;
   line-height: 119.99%;
   color: #FFFFFF;
+  cursor:auto;
 }

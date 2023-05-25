@@ -101,7 +101,7 @@
 .header_input button:hover {
   background: none;
   border: 1px solid #3e4d31;
-  color: #3e4d31;
+  color: #000000;
 }
 
 .social img {
@@ -171,12 +171,13 @@
   font-size: 15px;
   line-height: 20px;
   color: #3e4d31;
-  transition: 0.3s ease;
+  transition: 0.6s ease;
 }
 
 .header_down button:hover:not(:first-child) {
-  background: rgb(224, 223, 223);
-  border-radius: 63px;
+  background: #3e4d31;
+  border-radius: 5px;
+  color: white;
 }
 
 .catalog {
