@@ -1,8 +1,9 @@
 .footer {
-  position: relative;
-  width: 100%;
-  height: 178px;
-  background: #5b5729;
+    position: relative;
+    width: 100%;
+    height: 178px;
+    background: #5B5729;
+    margin-top: 50px;
 }
 
 .footer__container {

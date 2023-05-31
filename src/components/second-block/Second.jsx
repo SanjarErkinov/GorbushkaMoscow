@@ -1,5 +1,8 @@
+import Link from 'next/link';
 import styles from './Second.module.css'
 import SecondCard from './SecondCard/SecondCard';
+import Objekt from '../Objekt/Objekt';
+import { tovar } from '@/constans/Tovar';
 
 
 const Second = () => {
@@ -12,24 +15,28 @@ const Second = () => {
                     </div>
                     <div className={styles.second__link}>
                         <ul>
-                            <li><a href="#">Лидеры продаж</a></li>
-                            <li><a href="#">Новинки</a></li>
-                            <li><a href="#">Акции</a></li>
+                            <li><a href="#">
+                                <span>Лидеры продаж</span>
+                                </a></li>
+                            <li><a href="#">
+                                <span>Новинки</span>
+                                </a></li>
+                            <li><a href="#">
+                                <span>Акции</span>
+                                </a></li>
                         </ul>
                         <ul>
-                            <li><a href="#">Смотреть все &#8594;</a></li>
+                            <Link href="/product">
+                            <p>Смотреть все &#8594;</p>
+                            </Link>
                         </ul>
                     </div>
                     <div className={styles.second__card}>
-                        <SecondCard />
-                        <SecondCard />
-                        <SecondCard />
-                        <SecondCard />
-                        <SecondCard />
-                        <SecondCard />
-                        <SecondCard />
-                        <SecondCard />
-                    </div>
+                        {tovar.map((item)=>{
+                         return <SecondCard   id={item.id} img={item.img} title={item.title} oldprice={item.oldprice} price={item.price}/>
+                        }
+                        )}
+                      </div>
                 </div>
             </div>
         </div>

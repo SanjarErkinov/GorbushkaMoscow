@@ -22,9 +22,14 @@ li {
   padding: 0px;
   margin: 0px;
 }
-
+p{
+  color: black;
+}
+span{
+  color: #3e4d31;
+}
 a {
-  color: inherit;
+  color: #3e4d31;
   text-decoration: none;
 }
 

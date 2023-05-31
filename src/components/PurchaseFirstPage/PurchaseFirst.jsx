@@ -5,6 +5,8 @@ import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 import { Navigation, Autoplay } from "swiper";
+import PurchaseSecond from "../PurchaseSecondPage/PurchaseSecond";
+import Header from "../Header/Header";
 
 const PurchaseFirst = () => {
 
@@ -16,6 +18,7 @@ const PurchaseFirst = () => {
 
   return (
     <div className={s.purchaseFirst}>
+      <Header/>
       <div className={s.purchaseFirst__container}>
         <div className={s.purchaseFirst__body}>
           <div className={s.purchaseFirst__link}>
@@ -127,6 +130,7 @@ const PurchaseFirst = () => {
           </div>
         </div>
       </div>
+      <PurchaseSecond/>
     </div>
   );
 };

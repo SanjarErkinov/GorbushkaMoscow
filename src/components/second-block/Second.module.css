@@ -35,18 +35,17 @@
   column-gap: 36px;
 }
 
-.second__link ul li a {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 94.49%;
-  text-align: center;
-  color: #3e4d31;
+.second__link a{
+  perspective: 1000px;
 }
-
-.second__link ul li a:hover {
-  border-bottom: 2px solid #3e4d31;
+.second__link a>span{
+  display: inline-block;
+  transition: transform 0.7s ease;
+  transform-style: preserve-3d;
 }
-
+.second__link a:hover span{
+  transform: rotateX(350deg);
+}
 .second__card {
   display: flex;
   justify-content: center;

@@ -1,28 +1,43 @@
 import styles from './SecondCard.module.css'
 import Image from 'next/image';
-
-const SecondCard = () => {
+import { motion } from 'framer-motion'
+const SecondCard = ({img,title,oldprice,price}) => {
     return (
-        <div className={styles.second__item}>
+        <motion.div className={styles.second__item}
+        layout
+			transition={{
+				opacity: { ease: "linear" },
+				layout: { duration: 0.5 },
+				duration: 0.7,
+			}}
+			initial="hidden"
+			// transition={{ duration: 0.6 }}
+			whileInView="visible"
+			variants={
+				{
+					hidden: { scale: 0 },
+					visible: { scale: 1 }
+
+				}
+			}
+        >
             <div className={styles.second__card_container}>
                 <div className={styles.second__card_body}>
                     <div className={styles.second__card_title}>
                         <h1>Хит</h1>
                         <div className={styles.card__icon}>
-                            <Image src='/Image/FirstBlock/Union.png' alt='Union' width={14} height={17} />
                             <div className={styles.second__card__favorites}></div>
                         </div>
                     </div>
                     <div className={styles.second__card_img}>
-                        <Image src='/Image/FirstBlock/apple-watch.png' alt="Apple-Watch" width={110} height={125} />
+                        <img src={img} alt="img" />
                     </div>
                     <div className={styles.second__card_info}>
-                        <p>Планшет Apple iPad Air (2022) 10.9" <br /> Wi-Fi 64Gb серый космос (MM9C3)</p>
-                        <Image src='/Image/FirstBlock/reviews.png' alt="Reviews" width={73} height={12} />
+                        <p>{title}</p>
                         <div className={styles.second__card_subtitle}>
                             <div>
-                                <p>62 990 ₽</p>
-                                <h2>31 990 ₽</h2>
+                                <p>{oldprice}₽</p>
+                                <h2>{price} ₽</h2>
                             </div>
                             <div>
                                 <button>Купить</button>
@@ -31,7 +46,7 @@ const SecondCard = () => {
                     </div>
                 </div>
             </div>
-        </div>
+        </motion.div>
     );
 };
 
