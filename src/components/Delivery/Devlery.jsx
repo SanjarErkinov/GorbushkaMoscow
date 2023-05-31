@@ -2,9 +2,12 @@ import React from "react";
 import s from "./Devlery.module.css";
 import Link from "next/link";
 import Footer from "../footer/Footer";
+import Header from "../Header/Header";
 const Devlery = () => {
   return (
-    <div>
+    <div> 
+             <Header/>
+
       <div className={s.home}>
         <div className={s.delivery}>
           <h1>Доставка и оплата</h1>

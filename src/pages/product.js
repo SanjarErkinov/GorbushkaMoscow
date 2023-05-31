@@ -1,10 +1,7 @@
 import Product from '@/components/Product/Product';
-import { useRouter } from 'next/router';
 import React from 'react';
 
-const ProductId = () => {
-    const {query} = useRouter()
-    console.log(query)
+const product = () => {
     return (
         <div>
             <Product/>
@@ -12,4 +9,4 @@ const ProductId = () => {
     );
 };
 
-export default ProductId;
+export default product;

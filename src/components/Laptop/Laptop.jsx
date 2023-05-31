@@ -3,10 +3,12 @@ import LaptopTitle from './LaptopTitle/LaptopTitle';
 import React, { useState } from "react";
 import s from "./Laptop.module.css"
 import Footer from '../footer/Footer';
+import Header from '../Header/Header';
 const Laptop = () => {
     const [select, setSelect] = useState("");
     return (
         <div className={s.container}>
+          <Header/>
             <div className={s.home}>
             <div className={s.filter}>
            <div className={s.filter_brend}>

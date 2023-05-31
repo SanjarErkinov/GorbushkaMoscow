@@ -3,11 +3,13 @@ import React, { useState } from "react";
 import MobilePhone from "./MobilePhone/MobilePhone";
 import { mobile } from "@/constans/Mobile";
 import Footer from "../footer/Footer";
+import Header from "../Header/Header";
 const Mobile = () => {
     const [select, setSelect] = useState("");
 
     return (
         <div>
+          <Header/>
             <div className={s.home}>     
                <div className={s.filter}>
            <div className={s.filter_brend}>

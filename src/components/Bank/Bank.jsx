@@ -1,9 +1,11 @@
 import React from 'react';
 import s from  "./Bank.module.css"
 import Footer from '../footer/Footer';
+import Header from '../Header/Header';
 const Bank = () => {
     return (
         <div className={s.home}>
+            <Header/>
         <div className={s.container}>
             <div className={s.bank}>
                 <div className={s.master_card}>

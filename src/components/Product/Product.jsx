@@ -3,11 +3,13 @@ import FifthCard from "../Objekt/Objekt";
 import React, { useState } from "react";
 import { object } from "@/constans/Product";
 import Footer from "../footer/Footer";
+import Header from "../Header/Header";
 const Product = () => {
   const [select, setSelect] = useState("");
 
   return (
     <div className={s.home}>
+      <Header/>
     <div className={s.container}>
       <h1 className={s.smartfon}></h1>
       <div className={s.filter}>
